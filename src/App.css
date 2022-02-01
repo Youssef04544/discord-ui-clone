@@ -1,3 +1,15 @@
 .navigation-buttons-group button {
   @apply mx-4 font-semibold;
 }
+
+ul li:first-child {
+  color: #5865f2;
+}
+
+li {
+  @apply mb-4 max-w-[250px];
+}
+
+hr {
+  border: solid 1px #5865f2;
+}

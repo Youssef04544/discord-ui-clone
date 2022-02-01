@@ -171,8 +171,74 @@ const Landing = () => {
       {/* just chilling end */}
 
       {/* footer start */}
-      <footer className='h-[70vh] w-screen bg-[#23272a]'>
-        <div className=' bg-[#23272a]'>lol</div>
+      <footer className='h-[70vh] w-screen overflow-none bg-[#23272a] p-20 text-white'>
+        <div className='flex justify-between text-xs'>
+          <ul>
+            <li className='font-extrabold text-4xl'>IMAGINE A PLACE</li>
+            <li>
+              <img
+                src='/assets/usa_flag.png'
+                alt='USA FLAG'
+                className='inline-block mr-2'
+                height={24}
+                width={24}
+              />
+              English, USA
+            </li>
+            <li className='flex gap-4'>
+              <img src='/assets/twitter_icon.svg' alt='twitter' />
+              <img src='/assets/instagram_icon.svg' alt='instagram' />
+              <img src='/assets/facebook_icon.svg' alt='facebook' />
+              <img src='/assets/youtube_icon.svg' alt='youtube' />
+            </li>
+          </ul>
+          <ul>
+            <li>Product</li>
+            <li>Download</li>
+            <li>Nitro</li>
+            <li>Status</li>
+          </ul>
+          <ul>
+            <li>Company</li>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Branding</li>
+            <li>Newsroom</li>
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li>Collage</li>
+            <li>Support</li>
+            <li>Safety</li>
+            <li>Blog</li>
+            <li>Feedback</li>
+            <li>Developers</li>
+            <li>StreamKit</li>
+          </ul>
+          <ul>
+            <li>Policies</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Guidelines</li>
+            <li>Acknowledgements</li>
+            <li>Licenses</li>
+            <li>Moderation</li>
+          </ul>
+        </div>
+        <hr className='text-[#5865f2] bg-[#5865f2]' />
+        <div className='flex justify-between mt-6 items-center'>
+          <div className='font-bold'>
+            <img
+              src='/assets/discord_logo.svg'
+              alt='discord logo'
+              className='inline'
+            />
+            Discord
+          </div>
+          <div className=' rounded-full bg-[#5865f2] w-24 h-10 justify-center items-center flex'>
+            Sign up
+          </div>
+        </div>
       </footer>
       {/* footer end */}
     </>
