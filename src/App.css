@@ -1,5 +1,5 @@
-.navigation-buttons-group button {
-  @apply mx-4 font-semibold;
+.navigation-buttons-group a {
+  @apply mx-4 font-semibold cursor-pointer;
 }
 
 ul li:first-child {
@@ -12,4 +12,9 @@ li {
 
 hr {
   border: solid 1px #5865f2;
+}
+
+.imagine-header {
+  font-size: "clamp(24px, 5vw, 44px)";
+  @apply md:text-6xl;
 }
