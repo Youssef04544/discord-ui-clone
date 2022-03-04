@@ -4,6 +4,7 @@ const _Landing = () => {
   return (
     <div className='h-full overflow-x-hidden'>
       <div>
+        {/* Imagine a place start */}
         <div className='flex flex-col relative min-h-[626px] w-full items-center bg-[#404eed]'>
           {/* Top navigation bar */}
           <nav className='relative z-[1] flex justify-between items-center w-full pt-2 px-4 md:px-16 bg-[#404eed] text-white max-w-[1260px]'>
@@ -124,6 +125,143 @@ const _Landing = () => {
           </div>
           {/*end Images containers for imagine a place */}
         </div>
+        {/* Imagine a place end */}
+        {/* Invite only start */}
+        <div className='w-full flex flex-col relative items-center'>
+          <div className='grid grid-cols-4 gap-x-4 py-14 px-6 w-full max-w-[1260px] md:py-20 md:grid-cols-8 md:gap-x-6 md:px-10 lg:py-[120px] lg:grid-cols-12'>
+            <img
+              src='/assets/invite_only_landing.svg'
+              alt='placeholder'
+              className='col-span-4 max-w-[678px] max-h-[440px] w-full mt-6 object-cover md:m-auto lg:col-span-7 '
+            />
+            <div className='mt-5 text-[#23272a] col-span-4 md:mt-0 md:flex md:flex-col md:justify-center lg:col-start-9'>
+              <h2 className='font-bold h-two-styling'>
+                Create an invite-only place where you belong
+              </h2>
+              <div
+                className='mt-6 leading-relaxed'
+                style={{ fontSize: "clamp(16px,2vw,20px)" }}
+              >
+                Discord servers are organized into topic-based channels where
+                you can collaborate, share, and just talk about your day without
+                clogging up a group chat.
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Invite only end */}
+        {/* Hanging out easy start */}
+        <div className='bg-[#f6f6f6] w-full flex flex-col items-center'>
+          <div className='grid grid-cols-4 gap-x-4 py-14 px-6 w-full max-w-[1260px] md:py-20 md:grid-cols-8 md:gap-x-6 md:px-10 lg:py-[120px] lg:grid-cols-12'>
+            <img
+              src='/assets/hanging_out_easy_landing.svg'
+              alt='just chilling'
+              className='order-2 col-span-4 max-w-[678px] max-h-[440px] w-full mt-6 object-cover md:m-auto lg:col-span-7 lg:col-start-6'
+            />
+            <div className='order-1 mt-5 col-span-4 text-[#23272a] md:mt-0 md:flex md:flex-col md:justify-center lg:col-start-1'>
+              <h2 className='font-bold h-two-styling'>
+                Where hanging out is easy
+              </h2>
+              <div
+                className='mt-6 leading-relaxed'
+                style={{ fontSize: "clamp(16px,2vw,20px)" }}
+              >
+                Grab a seat in a voice channel when you’re free. Friends in your
+                server can see you’re around and instantly pop in to talk
+                without having to call.
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Hanging out easy end */}
+        {/* Fandom start */}
+        <div className='w-full flex flex-col relative items-center'>
+          <div className='grid grid-cols-4 gap-x-4 py-14 px-6 w-full max-w-[1260px] md:py-20 md:grid-cols-8 md:gap-x-6 md:px-10 lg:py-[120px] lg:grid-cols-12'>
+            <img
+              src='/assets/fandom_landing.svg'
+              alt='placeholder'
+              className='col-span-4 max-w-[678px] max-h-[440px] w-full mt-6 object-cover md:m-auto lg:col-span-7 '
+            />
+            <div className='mt-5 text-[#23272a] col-span-4 md:mt-0 md:flex md:flex-col md:justify-center lg:col-start-9'>
+              <h2 className='font-bold h-two-styling'>From few to a fandom</h2>
+              <div
+                className='mt-6 leading-relaxed'
+                style={{ fontSize: "clamp(16px,2vw,20px)" }}
+              >
+                Get any community running with moderation tools and custom
+                member access. Give members special powers, set up private
+                channels, and more.
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Fandom end */}
+        {/* Reliable Tech start */}
+        <div className='bg-[#f6f6f6] w-full flex flex-col items-center'>
+          <div className='w-full max-w-[1260px] grid grid-cols-4 gap-x-5 px-6 py-14 box-border md:py-20 md:grid-cols-8 md:px-10 lg:pb-20 lg:pt-[120px] lg:grid-cols-12'>
+            <div className='text-[#23272a] col-span-4 md:text-center md:flex md:flex-col md:justify-center md:col-span-8 lg:col-start-2 lg:col-span-10'>
+              <h2 className='h-two-styling-special'>
+                RELIABLE TECH FOR STAYING CLOSE
+              </h2>
+              <div
+                className='mt-6 leading-relaxed'
+                style={{ fontSize: "clamp(16px,2vw,20px)" }}
+              >
+                Low-latency voice and video feels like you're in the same room.
+                Wave hello over video, watch friends stream their games, or
+                gather up and have a drawing session with screen share.
+              </div>
+            </div>
+            <img
+              src='/assets/just_chiling_landing.svg'
+              alt='just chilling'
+              className='col-span-4 object-cover mt-6 w-full md:col-span-8 lg:col-span-12 lg:mt-4'
+            />
+          </div>
+        </div>
+        {/* Reliable Tech end */}
+        {/* Journey start */}
+        <div className='bg-[#f6f6f6] w-full flex flex-col items-center'>
+          <div className='mb-14 flex flex-col justify-center items-center flex-wrap relative w-full max-w-[1260px] box-border px-6 md:mb-20 md:px-10 lg:mb-[120px]'>
+            <div
+              aria-hidden='true'
+              className='absolute top-0 w-full overflow-hidden flex justify-center'
+            >
+              <img
+                src='/assets/tiny_stars_landing.svg'
+                alt='stars'
+                className='select-none'
+              />
+            </div>
+            <h4 className='z-[1] mt-[30px] font-semibold text-[32px] leading-[120%]'>
+              Read to start your journey?
+            </h4>
+            <a
+              href='https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86'
+              className='mt-10 w-full justify-center rounded-[28px] text-[20px] py-4 px-8 bg-[#5865f2] text-white cursor-pointer font-medium leading-[24px] inline-flex box-border items-center no-underline md:w-auto'
+            >
+              <svg
+                width='20'
+                height='20'
+                className='mr-2'
+                aria-hidden='true'
+                focusable='false'
+                data-prefix='fas'
+                data-icon='download'
+                role='img'
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 512 512'
+              >
+                <path
+                  fill='currentColor'
+                  d='M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z'
+                ></path>
+              </svg>
+              Download for Windows
+            </a>
+          </div>
+        </div>
+        {/* Journey end */}
       </div>
     </div>
   );

@@ -1,3 +1,6 @@
+:root {
+  box-sizing: border-box;
+}
 .navigation-buttons-group a {
   @apply mx-4 font-semibold cursor-pointer;
 }
@@ -17,4 +20,21 @@ hr {
 .imagine-header {
   font-size: "clamp(24px, 5vw, 44px)";
   @apply md:text-6xl;
+}
+.h-two-styling {
+  line-height: 120%;
+  font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  font-size: 32px;
+  font-size: clamp(20px, 4vw, 40px);
+  @apply md:text-[48px];
+}
+.h-two-styling-special {
+  font-size: 40px;
+  font-size: clamp(20px, 4vw, 40px);
+  font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  line-height: 90%;
+  text-rendering: geometricPrecision;
+  @apply font-extrabold;
 }
