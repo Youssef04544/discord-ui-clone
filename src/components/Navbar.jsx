@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <nav className='relative flex justify-between items-center pt-5 px-6 md:px-16 bg-[#404eed] text-white max-w-[1260px]'>
+      <nav className='relative flex justify-between items-center pt-5 px-6 md:px-16 bg-[#404eed] text-white '>
         <div className='flex items-center text-2xl'>
           <svg
             width='65'
